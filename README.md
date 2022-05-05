@@ -1,8 +1,8 @@
 # Python
 **- Google Colab**
-##Bibliotecas:
+## Bibliotecas:
 **- pandas**
-**- datble_**
+**- data_table**
 
 ### 01. Importar e exibir planilha
 ![image](https://user-images.githubusercontent.com/104110095/166702016-490a0cc4-1114-404c-b6c1-3c64947f3384.png)
