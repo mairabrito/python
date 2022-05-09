@@ -15,7 +15,7 @@ def quantitativo(Tabela, Filtro, n):
     print(color.CBOLD+color.CYELLOW2+str(len(df_Q.index))+color.CEND) #total
 
     colecaoFiltro= sorted(list(set(df_Q['Submetido a'].tolist()))) #Coleçao do Filtro
-    PlanilhaQ = DataFrame(colecaoFiltro, columns=['Coleção']) #Construir Planilha 
+    PlanilhaQ = DataFrame(colecaoFiltro, columns=['Coleção']) #Construir Planilha, coluna coleção
     quantitativo = []
   
 
@@ -23,7 +23,7 @@ def quantitativo(Tabela, Filtro, n):
       PlanilhaAUX2 = df_Q.loc[df_Q['Submetido a']==colecaoFiltro[i]] #Tabela de cada elemento do filtro
       quantitativo.append(len(PlanilhaAUX2.index)) #Quantitativo de cada elemento
 
-    PlanilhaQ['Quantidade'] = quantitativo
+    PlanilhaQ['Quantidade'] = quantitativo #add coluna quantitativo
     index = len(colecaoFiltro)
   
     total = PlanilhaQ['Quantidade'].sum() #Calcular o total na coluna
@@ -37,4 +37,4 @@ def quantitativo(Tabela, Filtro, n):
       display(HTML(PlanilhaQ.to_html(index=False)))
     print('\n\n')
     
-quantitativo(df, 'TCC', 1)
+quantitativo(df, 'TCC', 1) #chamada
