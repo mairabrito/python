@@ -13,7 +13,7 @@
 ### 04. Filtrar por palavra - selecionar a coluna e filtrar buscando a palavra na coluna desejada.
 ![image](https://user-images.githubusercontent.com/104110095/166706799-a153c9fc-939a-4b90-bcfb-78aeea8506b5.png)
 
-### 05. Gerar planilha de quantitativo
+### 05. Gerar planilhas de quantitativo por tarefa e usando filtro 
 ![image](https://user-images.githubusercontent.com/104110095/167428410-cd7f26f9-90c8-4625-95dd-177b2c7ca402.png)  ![image](https://user-images.githubusercontent.com/104110095/167428688-81fa38d8-c419-4f37-9443-4bb261e4959a.png)
 
 
